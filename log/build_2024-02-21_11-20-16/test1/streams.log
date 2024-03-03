@@ -1,0 +1,76 @@
+[0.453s] Invoking command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kaunghtethtun/Test/workspace/src/test1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaunghtethtun/Test/workspace/src/test/install/test1
+[0.886s] -- The C compiler identification is GNU 11.4.0
+[1.355s] -- The CXX compiler identification is GNU 11.4.0
+[1.417s] -- Detecting C compiler ABI info
+[1.977s] -- Detecting C compiler ABI info - done
+[2.036s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.037s] -- Detecting C compile features
+[2.041s] -- Detecting C compile features - done
+[2.072s] -- Detecting CXX compiler ABI info
+[2.768s] -- Detecting CXX compiler ABI info - done
+[2.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.826s] -- Detecting CXX compile features
+[2.829s] -- Detecting CXX compile features - done
+[2.857s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.241s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.720s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.906s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[5.255s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.296s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.377s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.153s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.525s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.273s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[7.893s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[8.536s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.556s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.351s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.539s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.997s] -- Looking for pthread.h
+[10.574s] -- Looking for pthread.h - found
+[10.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.257s] -- Found Threads: TRUE  
+[12.631s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.557s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.558s] -- Configured cppcheck include dirs: 
+[13.559s] -- Configured cppcheck exclude dirs and/or files: 
+[13.574s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.600s] -- Added test 'lint_cmake' to check CMake code style
+[13.615s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.704s] -- Added test 'uncrustify' to check C / C++ code style
+[13.706s] -- Configured uncrustify additional arguments: 
+[13.723s] -- Added test 'xmllint' to check XML markup files
+[13.748s] -- Configuring done
+[13.835s] -- Generating done
+[13.846s] -- Build files have been written to: /home/kaunghtethtun/Test/workspace/src/test/build/test1
+[13.985s] Invoked command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kaunghtethtun/Test/workspace/src/test1 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaunghtethtun/Test/workspace/src/test/install/test1
+[13.989s] Invoking command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kaunghtethtun/Test/workspace/src/test/build/test1 -- -j8 -l8
+[14.527s] [ 50%] [32mBuilding CXX object CMakeFiles/talk.dir/src/publish.cpp.o[0m
+[67.500s] [100%] [32m[1mLinking CXX executable talk[0m
+[68.681s] [100%] Built target talk
+[68.760s] Invoked command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kaunghtethtun/Test/workspace/src/test/build/test1 -- -j8 -l8
+[69.029s] Invoking command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kaunghtethtun/Test/workspace/src/test/build/test1
+[69.070s] -- Install configuration: "RelWithDebInfo"
+[69.074s] -- Execute custom install script
+[69.077s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/lib/test1/talk
+[69.139s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/launch/turtle.launch.py
+[69.209s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/ament_index/resource_index/package_run_dependencies/test1
+[69.275s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/ament_index/resource_index/parent_prefix_path/test1
+[69.346s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/environment/ament_prefix_path.sh
+[69.420s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/environment/ament_prefix_path.dsv
+[69.488s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/environment/path.sh
+[69.555s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/environment/path.dsv
+[69.633s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/local_setup.bash
+[69.687s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/local_setup.sh
+[69.766s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/local_setup.zsh
+[69.850s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/local_setup.dsv
+[69.922s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/package.dsv
+[69.991s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/ament_index/resource_index/packages/test1
+[70.066s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/cmake/test1Config.cmake
+[70.144s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/cmake/test1Config-version.cmake
+[70.217s] -- Symlinking: /home/kaunghtethtun/Test/workspace/src/test/install/test1/share/test1/package.xml
+[70.326s] Invoked command in '/home/kaunghtethtun/Test/workspace/src/test/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kaunghtethtun/Test/workspace/src/test/build/test1

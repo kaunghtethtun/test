@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kaunghtethtun/Test/workspace/src/test/build/test/talk" "/home/kaunghtethtun/Test/workspace/src/test/build/test/listener" "TARGETS" "talk" "listener" "DESTINATION" "lib/test")

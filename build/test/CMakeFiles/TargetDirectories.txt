@@ -1,0 +1,11 @@
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/uninstall.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/test_uninstall.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/talk.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/listener.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/test.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/edit_cache.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/rebuild_cache.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/list_install_components.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/install.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/install/local.dir
+/home/kaunghtethtun/Test/workspace/src/test/build/test/CMakeFiles/install/strip.dir

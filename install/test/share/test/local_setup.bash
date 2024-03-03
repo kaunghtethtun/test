@@ -1,0 +1,1 @@
+/home/kaunghtethtun/Test/workspace/src/test/build/test/ament_cmake_environment_hooks/local_setup.bash
